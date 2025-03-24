@@ -1,0 +1,76 @@
+name: msiic_clubs
+description: MSEC CLUB WEBPAGE
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  # github
+  github: ^9.2.0
+
+  # web related
+  flutter_html: any
+  url_strategy: ^0.2.0
+  universal_html: ^2.0.4
+
+  # http
+  http: ^0.13.1
+
+  # utils
+  mailto: ^2.0.0
+  flip_card: ^0.6.0
+  url_launcher: ^6.1.2
+  carousel_slider: ^4.0.0
+  animated_text_kit: ^4.2.1
+  font_awesome_flutter: ^10.1.0
+
+  shared_preferences: ^2.0.6
+  provider: ^6.0.1
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/work/
+    - assets/photos/
+    - assets/services/
+    - assets/projects/
+
+  fonts:
+    - family: Agustina
+      fonts:
+        - asset: fonts/agustina/agustina.otf
+
+    - family: Montserrat
+      fonts:
+        - asset: fonts/montserrat/montserrat.ttf
+
+    - family: Poppins
+      fonts:
+        - asset: fonts/poppins/Poppins-Regular.ttf
+        - asset: fonts/poppins/Poppins-Light.ttf
+        - asset: fonts/poppins/Poppins-Bold.ttf
+          weight: 900
+        - asset: fonts/poppins/Poppins-Medium.ttf
+          weight: 300
+        - asset: fonts/poppins/Poppins-SemiBold.ttf
+          weight: 500
+        - asset: fonts/poppins/Poppins-Italic.ttf
+          style: italic
+
